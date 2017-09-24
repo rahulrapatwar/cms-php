@@ -15,7 +15,7 @@ foreach ($db as $key => $value) {
 $connection = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME); //mysqli_connect(server, user, password, database)
 // checking connection
 if ($connection) {
-  echo "Connection Successful";
+  //echo "Connection Successful";
 } else {
   echo "Connection Unsuccessful";
 }
